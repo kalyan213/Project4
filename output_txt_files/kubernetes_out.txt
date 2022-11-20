@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+oclabs:~/environment/Project4 (master) $ ./run_kubernetes.sh 
+pod/latest created
+NAME     READY   STATUS    RESTARTS   AGE
+latest   0/1     Pending   0          0s
+error: unable to forward port because pod is not running. Current status=Pending
+voclabs:~/environment/Project4 (master) $ kubectl get pod
+NAME     READY   STATUS    RESTARTS   AGE
+latest   1/1     Running   0          50s
+voclabs:~/environment/Project4 (master) $ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "latest" already exists
+NAME     READY   STATUS    RESTARTS   AGE
+latest   1/1     Running   0          57s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
