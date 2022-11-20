@@ -10,7 +10,7 @@ jobs:
         - image: python:3.7.3-stretch
 
     working_directory: ~/repo
-        steps:
+    steps:
             - checkout
             # Download and cache dependencies
             - restore_cache:
@@ -26,8 +26,6 @@ jobs:
                     . devops/bin/activate
                     make install
             # Install hadolint
-            wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
-            chmod +x /bin/hadolint
             - save_cache:
                 paths:
                     - ./venv
