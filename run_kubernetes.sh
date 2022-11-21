@@ -6,10 +6,11 @@
 # This is your Docker ID/path
 # dockerpath=<>
 dockerpath=kalyan212/udaproject4
-kubectl run latest --image=$dockerpath --port=80
+
 
 # Step 2
 # Run the Docker Hub container with kubernetes
+kubectl run latest --image=$dockerpath --port=80
 
 
 # Step 3:
