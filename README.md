@@ -1,6 +1,4 @@
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/kalyan213/Project4/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/kalyan213/Peoject4/tree/main)
-
-
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/kalyan213/Project4/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/kalyan213/Project4/tree/master)
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
